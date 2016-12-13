@@ -1,0 +1,68 @@
+﻿hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  color: #87CEEB;
+}
+
+.item-img {
+	padding-top: 3px;
+}
+
+a.item-name {
+	color: #36aa9d;
+}
+
+.existence {
+	color: #36aa9d;
+	font-size: 12px;
+}
+
+.price-all {
+	color: #0a2341;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.item-buynow {
+	font-size: 14px;
+    	font-family: "Arial-Regular", sans-serif;
+    	color: #fff;
+    	padding: 5px 20px;
+    	background: #214f85;
+    	margin-right: 10px;	
+}
+
+.item-buynow:hover {
+	color: #fff;
+	background: #2b609e;
+	text-decoration: none;
+}
+
+
+.str-col {
+	color: #0a2341;
+}
+
+.price-disc {
+	color: #FFA500;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pagination>li>a {
+	border: none;
+	color: #36aa9d;
+}
+
+
+.pagination>li>span {
+	border: none;
+	color: #214f85;
+}

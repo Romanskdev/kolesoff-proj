@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kolesoff-shop-home</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="import.css">
+</head>
+<body>
+	<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+     	<span class="sr-only">Toggle navigation</span>
+      	<span class="icon-bar"></span>
+      	<span class="icon-bar"></span>
+      	<span class="icon-bar"></span>
+    </button>
+ </div>
+	<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a class="navbar-li" href="home1.html">КАТАЛОГ</a></li>	
+				<li><a class="navbar-li" href="#">СКИДКИ</a></li>	
+				<li><a class="navbar-li" href="#">ПОКУПАТЕЛЯМ</a></li>	
+				<li><a class="navbar-li" href="#">ОТЗЫВЫ</a></li>	
+				<li><a class="navbar-li" href="#">НОВОСТИ</a></li>	
+				<li><a class="navbar-li" href="#">КОНТАКТЫ</a></li>	
+				<form action="" class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="search" class="form-control" placeholder="Поиск по шине или диску"><i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+				</form>
+  			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--HEADER-->
+
+<div class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class=""><span class="logo-name pull-right">Интернет магазин<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;шин и дисков</span>
+				<img class="logo img-responsive pull-right" src="img/logo.png" alt="Интернет магазин шин и дисков">
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="text-center">
+					<img src="img/phone.png" class="head-phone" alt="Number">
+					<span class="head-number">8-800-888-88-88</span>
+					<a href="#" class="head-callback">Заказать обратный звонок</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="basket pull-right">
+					<a href="#" class="">В корзине</a> товаров:<br>На сумму:
+					<p class="pbuy-now"><a href="#" class="head-buynow">ОФОРМИТЬ ЗАКАЗ</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="pull-right">
+					<a href="#" class="passenger"></a><a href="#" class="head-forpass">Легковым и коммерческим авто</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12">
+				<a href="#" class="truck"></a><a href="#"" class="head-fortruck">&nbsp;Грузовикам</a>
+			</div>
+			<div class="col-md-5 col-sm-4 col-xs-12">
+				<a href="#" class="head-drawnow pull-right">Оформи прямо сейчас!</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--HEAD_FILTER-->
+
+<div class="head-filter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs12">
+				<div class="tabbable"> 
+  					<ul class="nav nav-tabs">
+    					<li class="active"><a href="#tab1" data-toggle="tab">ШИНЫ</a></li>
+    					<li><a href="#tab2" data-toggle="tab">ДИСКИ</a></li>
+    					<li><a href="#tab3" data-toggle="tab">ШИНОМОНТАЖ</a></li>
+  					</ul><!--сделать, чтобы в активном состоянии не уменьшались паддинги-->
+  					<div class="tab-content">
+    					<div class="tab-pane" id="tab1"> <!--не задается бекграунд на дропдауны-->
+      						<form action="#" class="form-inline head-filter-form"><!--форма без submit????-->
+      							<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> &nbsp;&nbsp;<span class="head-form-texts">По авто</span>
+								</label>
+								<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked> &nbsp;&nbsp;<span class="head-form-texts">По параметрам</span>
+								</label>
+								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Летние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Зимние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Всесезонные</span> 
+ 								</label>
+      						</form>
+      						<div class="dropdown dropdown-mark">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Марка авто
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">Audi</a></li>
+    									<li><a href="#">BMW</a></li>
+    									<li><a href="#">Mercedes-Benz</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-model">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модель<!--как сделать, чтобы модель зависела от марки??? 2. как сделать бекграунды каретам???-->
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">A6</a></li>
+    									<li><a href="#">5-series</a></li>
+    									<li><a href="#">E-klasse</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-year">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Год
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">2000</a></li>
+    									<li><a href="#">2001</a></li>
+    									<li><a href="#">2002</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-modification">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модификация
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">classic</a></li>
+    									<li><a href="#">elegance</a></li>
+    									<li><a href="#">avantgarde</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+						</div>
+    					<div class="tab-pane" id="tab2">
+      						<form action="#" class="form-inline head-filter-form"><!--форма без submit????-->
+      							<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> &nbsp;&nbsp;<span class="head-form-texts">По авто</span>
+								</label>
+								<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked> &nbsp;&nbsp;<span class="head-form-texts">По параметрам</span>
+								</label>
+								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Летние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Зимние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Всесезонные</span> 
+ 								</label>
+      						</form>
+      						<div class="dropdown dropdown-mark">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Марка авто
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">Audi</a></li>
+    									<li><a href="#">BMW</a></li>
+    									<li><a href="#">Mercedes-Benz</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-model">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модель<!--как сделать, чтобы модель зависела от марки??? 2. как сделать бекграунды каретам???-->
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">A6</a></li>
+    									<li><a href="#">5-series</a></li>
+    									<li><a href="#">E-klasse</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-year">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Год
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">2000</a></li>
+    									<li><a href="#">2001</a></li>
+    									<li><a href="#">2002</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-modification">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модификация
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">classic</a></li>
+    									<li><a href="#">elegance</a></li>
+    									<li><a href="#">avantgarde</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+    					</div>
+    					<div class="tab-pane" id="tab3">
+      						<form action="#" class="form-inline head-filter-form"><!--форма без submit????-->
+      							<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> &nbsp;&nbsp;<span class="head-form-texts">По авто</span>
+								</label>
+								<label class="radio">
+  									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked> &nbsp;&nbsp;<span class="head-form-texts">По параметрам</span>
+								</label>
+								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Летние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Зимние</span> 
+ 								</label>
+ 								<label class="checkbox pull-right">
+    								<input type="checkbox">&nbsp;<span class="head-form-texts">Всесезонные</span> 
+ 								</label>
+      						</form>
+      						<div class="dropdown dropdown-mark">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Марка авто
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">Audi</a></li>
+    									<li><a href="#">BMW</a></li>
+    									<li><a href="#">Mercedes-Benz</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-model">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модель<!--как сделать, чтобы модель зависела от марки??? 2. как сделать бекграунды каретам???-->
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">A6</a></li>
+    									<li><a href="#">5-series</a></li>
+    									<li><a href="#">E-klasse</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-year">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Год
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">2000</a></li>
+    									<li><a href="#">2001</a></li>
+    									<li><a href="#">2002</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+							<div class="dropdown dropdown-modification">
+  								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Модификация
+								<span class="caret"></span></button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">classic</a></li>
+    									<li><a href="#">elegance</a></li>
+    									<li><a href="#">avantgarde</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Другие</a></li>
+  									</ul>
+							</div>
+    					</div>
+  					</div>
+				</div>
+
+<!--ITEMLISt HOME-->
+
+				<div class="item-list">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item3.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span><br><strike class="str-col">1584 p.</strike></p>
+						<span class="price-disc">1200 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+					</div>
+					<br>
+					<hr>				
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item3.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span><br><strike class="str-col">1584 p.</strike></p>
+						<span class="price-disc">1200 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+					</div>
+					<br>
+					<hr>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item3.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span><br><strike class="str-col">1584 p.</strike></p>
+						<span class="price-disc">1200 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+					</div>
+					<br>
+					<hr>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span></p><br>
+						<span class="price-all">1584 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+						<div class="col-md-4 col-sm-4 col-xs-12"><img src="img/item3.png" alt="item" class="img-responsive item-img">
+						<p><a href="page-item1.html" class="item-name">Шины Hankook Winter i*cept<br>W605 155/70R13 75Q</a><br><img src="img/iconhome.png" alt="icon"><span class="existence">Есть в наличии</span><br><strike class="str-col">1584 p.</strike></p>
+						<span class="price-disc">1200 р.</span><span class="pull-right"><a href="#" class="item-buynow">В КОРЗИНУ</a></span></div>
+					</div>
+					<hr>
+				</div>
+        <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li><span class="home-pages">Страницы :</span></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+        </ul>
+      </nav>
+			</div>
+			<div class="col-md-3 col-sm-3 hidden-xs">
+				<img src="img/present-card.png" alt="present-card" class="present-card img-responsive"></a>		
+<!--FILter VERTICAL HOME-->
+				<div class="vertical-filter">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Цена за штуку, руб.<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseOne" class="panel-collapse collapse in">
+      								<div class="panel-body">
+        								<form class="form-inline vertical-form-1">
+  										    <div class="form-group">
+    								        			<label for="exampleInputpricefrom" class="pricelabel">от</label>
+    												<input type="number" class="price" id="exampleInputName2" placeholder="Jane Doe">
+  										    </div>
+  										    <div class="form-group">
+    											   <label for="exampleInputpriceto" class="pricelabel">до</label>
+    											   <input type="number" class="price" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  										    </div>
+									     </form>
+      							 </div>  
+    							 </div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Сезон<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseTwo" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								<form class="vertical-form-2">
+  										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Летние</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Зимние</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Всесезонные</span>
+											</label>
+  										</div>
+									</form>	
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Артикул производителя<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseThree" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								<form class="vertical-form-2">
+  										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">В наличии</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Распродажа</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Run On Flat</span>
+											</label>
+  										</div>
+									</form>	
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Шипы<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseFour" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								<form class="vertical-form-2">
+  										<label class="custom-control custom-radio">
+  											<input id="radio1" name="radio" type="radio" class="custom-control-input">
+  											<span class="custom-control-description">С шипами&nbsp;<img src="img/iconhome2.png"></span>
+										</label>
+										<label class="custom-control custom-radio">
+  											<input id="radio2" name="radio" type="radio" class="custom-control-input">
+  											<span class="custom-control-description">Без шипов</span>
+										</label>
+									</form>	
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Производители<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseFive" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								<form class="vertical-form-2">
+  										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Bridgestone</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Continental</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Dunlop</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Goodyear</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Michelin</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Nokian</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Pirelli</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">Yokohama</span>
+											</label>
+  										</div>
+									</form>	
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Ширина профиля<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseSix" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								<form class="vertical-form-2">
+  										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">145</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">285</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">155</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">295</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">165</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">305</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">175</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">315</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">185</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">325</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">195</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">335</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">205</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">345</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">215</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">30</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">225</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">31</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">235</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">32</span>
+											</label>
+  										</div>
+										<div class="form-group">
+    											<label class="custom-control custom-checkbox">
+  												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description p-l">245</span>
+												<input type="checkbox" class="custom-control-input">
+  												<span class="custom-control-description">33</span>
+											</label>
+  										</div>
+									</form>	
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  								<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Высота профиля<span class="caret"></span></a>
+      										</p>
+    								</div>
+    								<div id="collapseSeven" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								
+      								</div>
+    							</div>
+							<div class="panel-group" id="accordion">
+  							<div class="panel panel-default">
+    									<div class="panel-heading">
+      										<p class="panel-title">
+        										<a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Диаметр<span class="caret"></span></a>
+      										</p>
+    								  </div>
+    								<div id="collapseEight" class="panel-collapse collapse collapse">
+      								<div class="panel-body">
+        								
+      								</div>  
+                    </div>
+                    <form class="form-inline vertical-form-1">
+                        <div class="form-group">
+                          <button type="reset" class="btn btn-default btn-reset">Сбросить</button>
+                          <button type="submit" class="btn btn-default btn-submit">Отправить</button>
+                        </div>
+                    </form>
+						      </div>
+				        </div>
+				      </div>   
+		        </div>
+		      </div>
+        </div>
+      </div>
+</body>
+</html>

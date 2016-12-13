@@ -1,0 +1,120 @@
+.logo-name {
+	font-size: 12px;
+	font-family: "Arial-Regular", sans-serif;
+	color: #36aa9d;
+}
+
+.logo {
+	position: relative;
+	top: -25px;
+}
+
+.head-phone {
+	margin-top: -10px;
+}
+
+.head-number {
+	font-size: 30px;
+	font-family: "Arial-Regular", sans-serif;
+	color: #0a2341;
+}
+
+
+.head-callback {
+	font-size: 14px;
+	font-family: "Arial-Regular", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 5px 15px;
+	background: #36aa9d;
+	margin-left: 10%;
+}
+
+.head-callback:hover {
+	color: #fff;
+	background: #41c1b2;
+	text-decoration: none;
+}	
+
+.basket {
+	font-size: 12px;
+	font-family: "Arial-Regular", sans-serif;
+	color: #36aa9d;
+	padding-right: 65px;
+}
+
+.pbuy-now {
+	padding-top: 8px;
+}
+
+.head-buynow {
+	font-size: 14px;
+	font-family: "Arial-Regular", sans-serif;
+	color: #fff;
+	padding: 5px 35px;
+	background: #214f85;
+}
+
+.head-buynow:hover {
+	color: #fff;
+	background: #2b609e;
+	text-decoration: none;
+}
+
+.head-forpass {
+	font-size: 14px;
+	font-family: "Arial-Bold", sans-serif;
+	color: #0a2341;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.head-forpass:hover {
+	color: #41c1b2;
+	text-decoration: underline;
+}
+
+a.passenger {
+	background: url('../img/passenger.png');
+	display: inline-block;
+	width: 45px;
+	height: 19px;
+}
+
+a.passenger:hover {
+	background: url('../img/passenger1.png');
+}
+
+a.truck {
+	background: url('../img/truck.png');
+	display: inline-block;
+	width: 45px;
+	height: 19px;
+}
+
+a.truck:hover {
+	background: url('../img/truck1.png');
+}
+
+.head-fortruck {
+	font-size: 14px;
+	font-family: "Arial-Bold", sans-serif;
+	color: #36aa9d;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.head-fortruck:hover {
+	color: #0a2341;
+	text-decoration: none;
+}
+
+.head-drawnow {
+	font-size: 16px;
+	font-family: "Arial-Bold", sans-serif;
+	color: #d9123d;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 14%;
+}

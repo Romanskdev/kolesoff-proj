@@ -1,0 +1,172 @@
+﻿.item-page-nav {
+	padding-left: 50px;
+}
+
+.item-page-nav-a {
+	color: #48D1CC;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.slash {
+	color: #48D1CC;	
+}
+
+.item-page-content-content {
+	padding: 20px 50px;
+	
+}
+
+h4 {
+	color: #0a2341;
+	font-weight: bolder;
+}
+
+img.item2 {
+	padding-left: 50px;	
+}
+
+.item-page-buttons {
+	padding-left: 50px;
+}
+
+.item2-presentcard {
+	font-size: 14px;
+    	font-family: "Arial-Regular", sans-serif;
+    	color: #fff;
+    	padding: 5px 25px;
+    	background: #DC143C;
+}
+
+.item2-presentcard:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #e84665;
+}
+
+.item2-credit {
+	font-size: 14px;
+    	font-family: "Arial-Regular", sans-serif;
+    	color: #fff;
+    	padding: 5px 29px;
+    	background: #36aa9d;
+}
+
+.item2-credit:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #41c1b2;
+}
+
+.item-page-content-discription>p {
+	font-size: 14px;
+	color: #0a2341;
+	
+}
+
+.item-page-content-discription-1 {
+	font-size: 14px;
+	color: #0a2341;
+	font-weight: bold;
+}
+
+.item-page-content-discription-2 {
+	color: #48D1CC;
+}
+
+.item-page-content-discription-3 {
+	font-size: 14px;
+	color: #0a2341;
+}
+
+.item-page-content-availability {
+	color: #48D1CC;
+	font-size: 12px;
+}
+
+.input-calc {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #48D1CC;
+	text-align: center;
+	color: #0a2341;
+}
+
+.minus, .plus {
+	padding: 3px;
+	border: 1px solid #48D1CC;
+}
+
+.minus:hover, .plus:hover {
+	background: #c5d9e5;
+	cursor: pointer;
+}
+
+.sum, .valute {
+	color: #0a2341;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.item-buynow-2 {
+    font-size: 14px;
+    font-family: "Arial-Regular", sans-serif;
+    color: #fff;
+    padding: 8px 35px;
+    background: #214f85;
+}
+
+.item-buynow-2:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #2b609e;
+}
+
+.tabwrap {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+.tab-pane-content {
+	font-size: 14px;
+	color: #0a2341;
+	padding-top: 20px;
+}
+
+div#tab2.tab-pane.active {
+	padding-top: 20px;
+}
+
+.form-recall {
+	margin-top: 10px;
+	padding: 20px 20px;
+	border: 2px solid #FFA500;
+	color: #0a2341;
+}
+
+.submit-recall {
+	background: #214f85;
+    	border-radius: 0px;
+	margin-left: 5px;
+}
+
+.bottom-align {
+	padding-left: 50px;
+}
+
+.footer {
+	background: #c5d9e5;
+	height: 75px;
+	margin-top: 20px;
+}
+
+.wcommunity_wrap:before {
+    content: ' ';
+    display: block;
+    border-radius: 3px;
+}
+
+#vk_groups {
+	margin-top: 20px;
+	margin-left: 15px;
+}

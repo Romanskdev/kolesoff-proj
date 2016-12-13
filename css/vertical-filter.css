@@ -1,0 +1,70 @@
+.vertical-filter {
+	margin-right: 25%;
+	border: 2px solid #FFA500;
+	padding: 5px 10px;
+    	margin-left: -10px;
+}
+
+.panel-default>.panel-heading {
+	padding: 0px!important;
+}
+
+.panel-title {
+	color: #36aa9d;
+	text-decoration: none;
+	border-bottom: 2px solid #36aa9d;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.vertical-form-1 {
+	padding-top: 5px;
+}
+
+.price {
+	width: 50px;
+}
+
+.pricelabel {
+	font-weight: normal;
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+
+p.panel-title {
+	background: #fff;
+}
+
+.btn-reset {
+	color: #fff;
+	background: #214f85;
+	padding: 5px 12px;
+	border-radius: 0px;
+}
+
+.btn-submit {
+	color: #fff;
+	background: #36aa9d;
+	padding: 5px 9px;
+	border-radius: 0px;
+}
+
+.custom-control-description {
+	font-weight: normal;
+	font-size: 14px;
+	color: #0a2341;
+}
+
+.p-l {
+	padding-right: 40px;
+}
+
+a.collapsed {
+	color: #214f85;
+}
+
+checkbox {
+	border: 1px solid black;
+}
